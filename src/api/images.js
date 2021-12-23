@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://61c3046d9cfb8f0017a3e8a1.mockapi.io/cards",
+  baseURL: "https://61c4694af1af4a0017d99519.mockapi.io",
 });

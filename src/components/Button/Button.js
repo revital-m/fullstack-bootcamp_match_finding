@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Button.css";
 
 class Button extends Component {
-  
   render() {
     return (
       <div className="btn-container">
@@ -10,10 +9,7 @@ class Button extends Component {
           className={`btn ${this.props.categoryBtnClass}`}
           onClick={this.props.handleClick}
           name={this.props.name}
-        >
-          {/* <i className={`${this.props.icon} btn--icon`}></i> */}
-          {this.props.btnText}
-        </button>
+        ></button>
       </div>
     );
   }
